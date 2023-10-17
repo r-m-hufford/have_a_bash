@@ -102,3 +102,10 @@ then
 else
   echo "SCALENE"
 fi
+
+##cut 7
+## given an input find and print the fourth word
+while read line
+do
+  echo "$line" | cut -d ' ' -f 4
+done
