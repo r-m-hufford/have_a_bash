@@ -103,7 +103,14 @@ else
   echo "SCALENE"
 fi
 
-##cut 7
+## cut 6
+## given a line of text print from the 13th character to the end
+while read line
+do
+  echo "$line" | cut -c 13-
+done
+
+## cut 7
 ## given an input find and print the fourth word
 while read line
 do
