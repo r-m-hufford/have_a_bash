@@ -52,3 +52,30 @@ while read line
 do
   echo "$line" | cut -d ' ' -f 4
 done
+
+
+## cut 8
+## given a sentence print the first three words
+while read line
+do
+  echo "$line" | cut -d' ' -f -3
+done
+
+## cut 9
+## given a tsv print the second to last value of each entry
+while read line
+do
+  echo "$line" | cut -f 2-
+done
+
+## head of a text file 1
+## display the first 20 lines of text in a file
+head -n 20
+
+## head of a text file 2
+# display the first 20 chars of a text file
+head -c 20
+
+## head of a text file 3
+## display lines 12 - 22 of a text file
+head -n 22 | tail -11
