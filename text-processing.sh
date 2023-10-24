@@ -79,3 +79,21 @@ head -c 20
 ## head of a text file 3
 ## display lines 12 - 22 of a text file
 head -n 22 | tail -11
+
+## Tail of a text file 1
+## display the last 20 lines of a text file
+tail -n 20
+
+## tail of a text file 2
+## display the last 20 chars of a text file
+tail -c 20
+
+## Tr Command 1
+## replace all parentheses with box brackets
+tr '()' '[]'
+## tr will replace all occurrences of the first character
+## in the first set with the first character in the second set
+
+## Tr Command 2
+## delete all lower case letters
+tr -d [a-z]
