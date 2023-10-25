@@ -97,3 +97,25 @@ tr '()' '[]'
 ## Tr Command 2
 ## delete all lower case letters
 tr -d [a-z]
+
+## Tr Command 3
+## replace all sequences of multiple spaces with a single space
+tr -s ' '
+
+## Sort Command 1
+## sort in ascending order
+sort
+
+## Sort Command 2
+## sort in descending order
+sort -r
+
+## Sort Command 3
+## sort numbers in ascending
+sort -n
+
+## Sort Command 4
+## sort numbers in descending
+## a linux 101 moment here. keys can be stacked
+## thus -n -r is equivalent to -nr
+sort -nr
