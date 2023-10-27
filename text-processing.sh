@@ -119,3 +119,11 @@ sort -n
 ## a linux 101 moment here. keys can be stacked
 ## thus -n -r is equivalent to -nr
 sort -nr
+
+## Sort Command 5
+## sort a tab delimited file in descending order of the second column
+sort -t $'\t' -k2 -nr
+
+## Sort Command 6
+## sort a tab delimited file in ascending order of the second column
+sort -t $'\t' -k2 -n
