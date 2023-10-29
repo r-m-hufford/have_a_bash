@@ -127,3 +127,7 @@ sort -t $'\t' -k2 -nr
 ## Sort Command 6
 ## sort a tab delimited file in ascending order of the second column
 sort -t $'\t' -k2 -n
+
+## Sort Command 7
+## sort a pipe delimited file by the second column
+sort -t '|' -k2 -nr
