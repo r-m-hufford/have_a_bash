@@ -131,3 +131,14 @@ sort -t $'\t' -k2 -n
 ## Sort Command 7
 ## sort a pipe delimited file by the second column
 sort -t '|' -k2 -nr
+
+## Uniq Command 1
+## remove dupes
+uniq
+
+## Uniq Command 2
+uniq -c | cut -c7-
+
+## Uniq Command 3
+## count dupes ingoring case
+uniq -c -i | cut -c7-
